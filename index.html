@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+    <title>Hot or Cold?</title>
   </head>
   <body>
-    <p>Paragraph</p>
+    <h1>Is it Hot or Cold?</h1>
+    <form action="javascript:calculateTemp()">
+      <label>Enter the degrees in Celsius:</label>
+      <input type="number" id="celsius">
+      <input type="submit">
+    </form>
+    <p id="result"></p>
   </body>
 </html>
